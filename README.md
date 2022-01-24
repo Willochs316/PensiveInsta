@@ -1,2 +1,2 @@
-# PensiveInsta
+# SillySlider
 Created with CodeSandbox

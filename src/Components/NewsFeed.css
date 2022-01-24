@@ -1,0 +1,253 @@
+.newsfeed-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 614px;
+  border: 1px solid #efefef;
+  border-radius: 3px;
+  margin-top: 100px;
+}
+
+.newsbar-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+}
+
+.img-container {
+  display: flex;
+  align-items: center;
+  flex-grow: 1;
+  padding: 14px 4px 14px 16px;
+}
+
+.news-image {
+  border-radius: 100%;
+  height: 32px;
+  width: 32px;
+}
+
+.txt {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.news-txt {
+  color: #262626;
+  font-weight: 600;
+  font-size: 14px;
+  text-transform: none;
+  line-height: 0;
+  cursor: pointer;
+  /*margin-left optional*/
+  margin-left: 10px;
+}
+
+.new-btn {
+  border: 0;
+  background: 0 0;
+
+  /* margin-right: 8px; */
+}
+
+.ellipsis {
+  font-size: 20px;
+  width: 40px;
+  background: 0 0;
+  border: 0;
+  background-color: transparent;
+  color: #262626;
+  padding: 8px;
+  line-height: 18px;
+  cursor: pointer;
+}
+
+.next {
+  font-size: 14px;
+  line-height: 18px;
+  background: 0 0;
+  border: 0;
+  outline: 0;
+  padding: 16px 8px;
+  position: absolute;
+  top: 50%;
+  /* transform: translateY(-50%); */
+  cursor: pointer;
+  right: 0;
+}
+
+.fa-chevron-circle-right {
+  color: #edeaea;
+  opacity: 0.7;
+  font-size: 30px;
+}
+
+.news-icons {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  pointer-events: auto;
+  width: 614px;
+  padding-bottom: 8px;
+  padding-top: 6px;
+  padding-left: 16px;
+  padding-right: 16px;
+}
+
+.icons-btn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.comment {
+  font-size: 20px;
+  line-height: 18px;
+  padding: 8px;
+  width: 40px;
+  height: 40px;
+  cursor: pointer;
+}
+
+.icons-btn2 {
+  font-size: 20px;
+  line-height: 18px;
+  padding: 8px;
+  cursor: pointer;
+}
+
+.dot-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: -20px;
+  cursor: pointer;
+}
+
+.dot {
+  cursor: pointer;
+  height: 8px;
+  width: 8px;
+  margin: 0 2px;
+  color: #8e8e8e;
+  border: none;
+  outline: none;
+  border-radius: 50%;
+  transition: background-color 0.6s ease;
+  cursor: pointer;
+}
+
+.bookmark {
+  width: 24px;
+  height: 24px;
+  line-height: 18px;
+  padding: 8px;
+  cursor: pointer;
+}
+
+.newsfeed-stat {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  background-color: forestgreen;
+}
+
+.feed-stat {
+  color: #262626;
+  font-size: 14px;
+  line-height: 18px;
+  text-transform: lowercase;
+}
+
+.comment-container {
+  display: flex;
+  flex-direction: column;
+  margin-top: 5px;
+  width: 100%;
+}
+.news-comment {
+  display: flex;
+  align-items: center;
+}
+
+.comment-txt {
+  color: #262626;
+  font-size: 14px;
+  line-height: 18px;
+  text-transform: inherit;
+  font-weight: 600;
+}
+
+.comment-txt2 {
+  color: #8e8e8e;
+  font-size: 14px;
+  line-height: 18px;
+  font-weight: 400;
+  text-transform: inherit;
+}
+
+.comment-txt3 {
+  color: #8e8e8e;
+  font-size: 10px;
+  line-height: 18px;
+  font-weight: 400;
+  text-transform: uppercase;
+}
+
+.addComment-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border-top: 1px solid #efefef;
+  color: #8e8e8e;
+  background-color: #ffffff;
+  font-size: 14px;
+  line-height: 18px;
+  /* padding-bottom: 6px;
+  padding-top: 6px;
+  padding-left: 16px;
+  padding-right: 16px; */
+  height: 53px;
+  width: 100%;
+}
+
+.add-btn {
+  color: #262626;
+  background-color: transparent;
+  padding: 8px;
+  line-height: 18px;
+  width: 24px;
+  height: 24px;
+  cursor: pointer;
+}
+
+.text {
+  display: flex;
+  width: 511.84px;
+}
+
+.addComment {
+  flex-grow: 1;
+  height: 18px;
+  border: 0;
+  outline: 0;
+  color: #262626;
+  background: 0 0;
+  resize: none;
+  cursor: text;
+}
+
+.post-btn {
+  border: 0;
+  background: 0 0;
+  color: #0095f6;
+  background-color: transparent;
+  padding: 8px;
+  line-height: 18px;
+  font-weight: 600;
+  cursor: pointer;
+}
